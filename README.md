@@ -4,6 +4,8 @@ For deep learning (pre-training) we want to have some pristine data with a known
 
 ![2000 example training images](images/montage_black.jpg)
 
+The above image is a montage of 20 volumes with 100 slices each. Every pair of rows corresponds to one volume stack. The circular vignette has only been added to this montage, it is not part of the training data. 
+
 Our model cells have
 - cell walls
 - a tiny nucleus
