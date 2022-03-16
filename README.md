@@ -4,9 +4,8 @@ For deep learning (pre-training) we want to have some pristine data with a known
 
 ![2000 example training images](images/montage_black.jpg)
 
-Our model of cells have
+Our model cells have
 - cell walls
 - a tiny nucleus
 
-We want to develop a segmentation of a cell and sample from it the image. In that way the ground truth image is the segmentation and the
-generated image is just a representation based on imaging physics.
+We start backwards, instead of segmenting an image we will create a segmentation and distort it to looks like an image. In that way the ground truth image is the segmentation and the generated image is just a representation based on imaging physics like a 3d point-spread function and photon-shot noise. Our generated images look a little like light-microscopy images.
