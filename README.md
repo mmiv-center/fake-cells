@@ -10,4 +10,4 @@ Our model cells have
 - cell walls
 - a tiny nucleus
 
-We start backwards, instead of segmenting an image we will create a segmentation and distort it to looks like an image. In that way the ground truth image is the segmentation and the generated image is just a representation based on imaging physics like a 3d point-spread function and photon-shot noise. Our generated images look a little like light-microscopy images.
+We start backwards, instead of segmenting an image we create a segmentation and distort it to look like an image. In that way the ground truth image is the segmentation and the generated image is a representation based on some simple imaging physics like a 3d point-spread function and some photon-shot noise. Our generated images look (remotely) like light-microscopy images.
